@@ -1,0 +1,14 @@
+{
+    "waypoints": [
+        {
+            "point": {
+                "latitude": 39.875852,
+                "longitude": -75.246227
+            }
+        }
+    ],
+    "options": {
+        "travelMode": "truck",
+        "vehicleMaxSpeed": 110
+    }
+}
