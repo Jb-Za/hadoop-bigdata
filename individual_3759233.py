@@ -29,7 +29,7 @@ params = { # flights from heathrow to philadelphia
     'dep_iata' : 'LHR'
 }
 method = 'flights'
-api_base = 'https://airlabs.co/api/v9/schedules?api_key=db45241c-6371-4827-8c62-cef3811cf1b2'
+api_base = 'https://airlabs.co/api/v9/schedules?api_key=$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$' #api key, i suggest getting your own
 api_result = requests.get(api_base, params)
 api_response = api_result.json()
 
@@ -92,7 +92,7 @@ coordinates = pd.concat([lat,lon], axis = 1)
 ######################################## tomtom map stuff ######################################
 
 
-api_key = "kGHSRtocKT3Ala8ksrxyV0ErlDc0jgZo"
+api_key = "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" #api key, i suggest getting your own
 airport_location = [39.8729299,-75.2436673]
 def start_map(api_key = api_key,location = airport_location,zoom = 12,style = "main"):
     maps_url = "http://{s}.api.tomtom.com/map/1/tile/basic/"+style+"/{z}/{x}/{y}.png?tileSize=512&key="
